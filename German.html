@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!--
+Author: Akash Jauhar
+Date Due: 12/17/2018
+Auto Car Center
+German.html
+-->
+
+<html>
+<head>
+<title>German Cars</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/boot.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style_common.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic'>
+<script src="assets/js/modernizr.custom.69142.js"></script>
+<!-- "Go Back" navigation (interconnectivity) -->
+<button type="button"><a class="active" href="index.html">Go Back</button>
+</head>
+<section id="port" class="bg-danger">
+  <div class="container">
+    <div class="row">
+        <!-- Title of the page -->
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="color:#3680C1">Popular German Car Brands</h2>
+      </div>
+    </div>
+    <div id="grid" class="main">
+
+          <!-- Images of the logos with the website links embeded -->
+      <div class="view">
+        <div class="view-back"><a href="https://www.bmwusa.com">&rarr;</a></div>
+        <img src="assets/img/bmw_logo.jpg"></div>
+
+      <div class="view">
+        <div class="view-back"><a href="https://www.mbusa.com/en/home?sd_campaign_type=Search&sd_digadprov=Resolution&sd_campaign=ZZBrand%7CCorp%7CMisc%7CGeneral%7CExact&sd_channel=GOOGLE&sd_adid=General&sd_digadkeyword=mercedes+benz&gclid=EAIaIQobChMIlKSCsYb23gIVwpyzCh1hDA35EAAYASAAEgIgevD_BwE&gclsrc=aw.ds">&rarr;</a></div>
+        <img src="assets/img/Mercedes-Benz-logo-2.jpg" alt=""></div>
+
+      <div class="view">
+        <div class="view-back">3><a href="https://www.audiusa.com/?ds_kid=43700022088266026&CSREF=SEM%7C10770960%7C3118667%7C144106565%7C315947276%7C0&gclid=EAIaIQobChMI75aTvof23gIVQ1cNCh3tOQKlEAAYASAAEgLXY_D_BwE&gclsrc=aw.ds">&rarr;</a></div>
+        <img src="assets/img/IMG_3C0670CBCC47-1.jpg" alt=""></div>
+
+      <div class="view">
+        <div class="view-back"><a href="https://www.vw.com/?ssem=ssem_lid=43700030362150098&gclid=EAIaIQobChMImZSNkIj23gIVBbbICh0h6AKjEAAYASAAEgLKbvD_BwE&mkwid=slid=43700030362150098&ds_s_kwgid=58700003819830376_257439427425_volkswagen_e_c&mtid=901kjf6786&slid=&product_id=">&rarr;</a></div>
+        <img src="assets/img/volkswagen-logo.jpg" alt=""></div>
+
+      <div class="view">
+        <div class="view-back"><a href="https://www.porsche.com/usa/?gclid=EAIaIQobChMI0-up5Ij23gIVCD0MCh1IPw8PEAAYAiAAEgLfZvD_BwE&gclsrc=aw.ds">&rarr;</a></div>
+        <img src="assets/img/porsche-logo.jpg" alt=""></div>
+    </div>
+  </div>
+</section>
+<!-- JavaScript included to add graphics to the images of the logos -->
+<script>
+Modernizr.load({
+    test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+    yep: ['assets/js/jquery-1.10.1.min.js', 'assets/js/jquery.hoverfold.js'],
+    nope: '',
+    callback: function(url, result, key) {
+        if (url === 'assets/js/jquery.hoverfold.js') {
+            $('#grid').hoverfold();
+        }
+    }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+
+/*
+ Author: Akash Jauhar
+ Date Due: 12/17/2018
+ Auto Car Center
+*/
+
+
+
+.container{padding-right:15px;
+padding-left:15px;
+margin-right:auto;
+margin-left:auto;
+height:auto;}
+
+
+
+
+.img-responsive
+{
+	 display: block;
+  max-width: 300px;
+  height: auto;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!--
+Author: Akash Jauhar
+Date Due: 12/17/2018
+Auto Car Center
+Korean.html
+-->
+
+<html>
+<head>
+<title>Korean Cars</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/boot.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style_common.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic'>
+<script src="assets/js/modernizr.custom.69142.js"></script>
+<!-- "Go Back" navigation (interconnectivity) -->
+<button type="button"><a class="active" href="index.html">Go Back</button>
+</head>
+<section id="port" class="bg-danger">
+  <div class="container">
+    <div class="row">
+  <!-- Title of the page -->
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="color:#3680C1">Popular Korean Car Brands</h2>
+      </div>
+    </div>
+      <!-- Images of the logos with the website links embeded -->
+    <div id="grid" class="main">
+
+      <div class="view">
+        <div class="view-back"><a href="https://www.hyundaiusa.com/?chid=sem&fb=hyu_b_husa&CID=20166438&PID=202442677&CRID=0&SID=4075918&AID=402292811&ds_query=Hyundai&gclid=EAIaIQobChMIyv7kruj33gIVl43ICh0TPgCFEAAYASAAEgKADfD_BwE&gclsrc=aw.ds">&rarr;</a></div>
+        <img src="assets/img/Unknown.png" alt=""></div>
+
+      <div class="view">
+        <div class="view-back"><a href="https://www.kia.com/us/en/home?cid=sem&ppc=y&aud=&CHID=sem&gclid=EAIaIQobChMIx6CA8f-B3wIVi_7jBx1OFAaGEAAYASAAEgLThPD_BwE&gclsrc=aw.ds">&rarr;</a></div>
+        <img src="assets/img/86353-1f500_2686cea9-b19c-4517-9adb-6ea1aff77e94_4000x.progressive.jpg"></div>
+
+      <div class="view">
+      <div class="view-back"><a href="https://www.genesis.com/us/en/genesis.html?chid=sem&fb=&CID=10955965&PID=146202853&CRID=0&SID=3265056&AID=317767215&ds_query=genesis&gclid=EAIaIQobChMIn_uD_4CC3wIVq_7jBx1xVQY3EAAYASAAEgJybvD_BwE&gclsrc=aw.ds">&rarr;</a></div>
+      <img src="assets/img/Genesis-logo-4096x1638.jpg"></div>
+    </div>
+  </div>
+</section>
+
+<!-- JavaScript included to add graphics to the images of the logos -->
+<script>
+Modernizr.load({
+    test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+    yep: ['assets/js/jquery-1.10.1.min.js', 'assets/js/jquery.hoverfold.js'],
+    nope: '',
+    callback: function(url, result, key) {
+        if (url === 'assets/js/jquery.hoverfold.js') {
+            $('#grid').hoverfold();
+        }
+    }
+});
+</script>
+</body>
+</html>
